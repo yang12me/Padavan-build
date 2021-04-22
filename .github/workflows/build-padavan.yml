@@ -40,7 +40,7 @@ jobs:
       run: |
         cd /opt/hostedtoolcache/go
         rm -rf /opt/hostedtoolcache/go/1.14.13
-        mv 1.16.3 1.14.13
+        mv 1.15.7 1.14.13
     - name: Build Firmware
       env:
         TNAME: NEWIFI3
